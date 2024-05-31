@@ -25,6 +25,12 @@ Add styles to your project:
 import 'react-material-web/styles'
 ```
 
+***Note: You can also use the components without `material-symbols` and `@fontsource/roboto` by importing the components directly.(v1.1.0)***
+
+```tsx
+import 'react-material-web/base-styles'
+```
+
 Then, you can use the components like this:
 
 ```tsx
